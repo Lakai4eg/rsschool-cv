@@ -1,12 +1,12 @@
 # CV
 
 ## Contacts  
-Matcek Alexander Mikhailovich 
-Yursha str. 3 - 26 
-Perm 614051 
-Russia 
-discord: Lakai#4575 
-email: perm.lakai@gmail.com 
+Matcek Alexander Mikhailovich  
+Yursha str. 3 - 26  
+Perm 614051  
+Russia  
+discord: Lakai#4575  
+email: perm.lakai@gmail.com  
 
 ## Info
 ### Education
