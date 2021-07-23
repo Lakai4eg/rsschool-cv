@@ -1,1 +1,1 @@
-https://lakai4eg.github.io/rsschool-cv/cv
+https://lakai4eg.github.io/rsschool-cv/
