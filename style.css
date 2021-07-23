@@ -11,11 +11,10 @@ h1, h2, h3, h4, h5, h6 {
 a{
     text-decoration: none;
     color: #fff;
-    padding: 5px;
 }
 
 a:hover{
-    color: #244B67;
+    color: #191735;
     transition: all 0.7s;
 }
 
@@ -26,7 +25,7 @@ a:hover{
 .wrapper{
     width: 100%;
     min-height: 100vh;
-    background: #e6e6e6;
+    background: #F1F1FA;
     padding: 20px 0;
 }
 
@@ -37,6 +36,7 @@ a:hover{
     padding: 10px;
     background: #f9f9f9;
     box-shadow: 0px 0px 5px 1px rgba(158, 158, 158, 0.9);
+    border-radius: 10px;
 }
 
 .header{
@@ -48,42 +48,64 @@ a:hover{
 .header__top{
     height: 130px;
     position: relative;
-    background: linear-gradient(to bottom, #7998b2 , rgba(0, 0, 0, 0));
+    background: linear-gradient(to bottom, #c1d8f7 , rgba(0, 0, 0, 0));
     display: flex;
     justify-content: center;
+    border-radius: 10px 10px 0 0;
 }
 
 .header__bottom{
     height: 130px;
-    background: linear-gradient(to top, #7998b2 , rgba(0, 0, 0, 0));
+    background: linear-gradient(to top, #c1d8f7 , rgba(0, 0, 0, 0));
 }
 
 .myphoto {
     border-radius: 50%;
     position: absolute;
-    border: 5px solid #fff;
+    border: 5px solid #ffffff;
     top: 30px;
 }
 
 .main{
     width: 100%;
-    background: #7998b2;
-    color: #fff;
+    background: #c1d8f7;
+    color: #191735;
     padding: 10px 0;
+    border-radius: 0 0 10px 10px;
 }
 
 .main__wrapper{
     padding: 0 10px;
 }
 
+.work_examples_container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.example{
+    max-width: 400px;
+}
+
+.example__img{
+    max-width: 100%;
+}
+
+.example__code{
+    overflow: auto;
+}
+
 .footer{
-    background: #7998b2;
+    background: #c1d8f7;
     min-height: 25px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 .footer_year{
